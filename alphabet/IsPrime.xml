@@ -1,0 +1,15 @@
+<operator name="IsPrime">
+
+	<runtime>
+		<python module="prime" function="is_prime"/>
+	</runtime>
+
+	<output>
+		<arg name="primep" physical="bool" logical="decision" />
+	</output>
+
+	<parameters>
+		<arg name="candidate"  physical="int" />
+	</parameters>
+
+</operator>

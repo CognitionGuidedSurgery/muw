@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:msml xmlns:p="http://sfb125.de/msml">
+    <variables>
+    </variables>
+
+    <workflow>
+		<IsPrime candidate="97" />
+		<IsPrime candidate="101" />
+    </workflow>
+</p:msml>
